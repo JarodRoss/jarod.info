@@ -54,7 +54,7 @@ export default function Projects() {
         {filtered.length === 0 ? (
           <p className="py-10 text-center text-zinc-500">{t('projects.no_results')}</p>
         ) : (
-          <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {filtered.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
