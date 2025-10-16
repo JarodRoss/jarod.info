@@ -7,7 +7,7 @@ export default function TimelineItem({ experience, index }: { experience: Experi
 
   return (
     <motion.div
-      className="relative pl-8 pb-6 last:pb-0"
+      className="relative pl-8 pb-12 last:pb-0"
       initial={{ opacity: 0, x: -30 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
