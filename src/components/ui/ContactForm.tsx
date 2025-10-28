@@ -55,7 +55,7 @@ export default function ContactForm() {
         <div>
           <label className="mb-2 block text-sm font-medium text-zinc-400">{t('contact.email')}</label>
           <input
-            type="text"
+            type="email"
             name="email"
             required
             className={inputClasses}
