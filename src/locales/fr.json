@@ -1,0 +1,238 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "academics": "Formation",
+    "thesis": "Mémoire",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Salut, moi c'est",
+    "name": "Jarod.",
+    "typing_prefix": "Mes spécialisations... ",
+    "roles": [
+      "Réseaux",
+      "Cybersécurité",
+      "Sysadmin",
+      "Gestion de projet",
+      "Chef de projet",
+      "Gestion d'équipe"
+    ],
+    "subtitle": "Étudiant en Master 2 en Sciences Informatiques",
+    "location": "Belgique",
+    "available": "Disponible",
+    "cta_projects": "Voir mes projets",
+    "cta_contact": "Me contacter",
+    "cta_source": "Code source du site",
+    "cta_cv": "Télécharger mon CV (FR/EN)"
+  },
+  "currently": {
+    "label": "En ce moment",
+    "text": "Je bosse sur mon mémoire de Master et je prépare mes examens de juin. En parallèle, je développe et gère l'infrastructure de <1>Garry's School</1> et de sa communauté GTACity Roleplay. Je bosse également pour plusieurs clients."
+  },
+  "about_preview": {
+    "title": "À propos",
+    "text": "Moi c'est Jarod, je suis en Master 2 en Sciences Informatiques à l'École Polytechnique de ~TG91dmFpbg==~ en Belgique. Passionné par les réseaux, la cybersécurité et les systèmes, j'aime apprendre en cours mais j'aime encore mieux apprendre au travers de mes passions. J'ai également un gros attrait pour la gestion de projet et le rôle de chef de projet technique.",
+    "link": "En savoir plus"
+  },
+  "featured_projects": {
+    "title": "Projets sélectionnés",
+    "view_all": "Voir tous les projets"
+  },
+  "contact_cta": {
+    "title": "Un projet en tête ?",
+    "subtitle": "N'hésitez pas à me contacter pour discuter de vos idées.",
+    "button": "Me contacter"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "intro": "Salut ! Moi, c'est Jarod (et oui c'est mon prénom). Je suis en Master 2 en sciences informatiques à l'École Polytechnique en Belgique. J'ai un parcours un peu lambda qui mélange les cours et la passion.",
+    "paragraph1": "Je touche aux ordinateurs depuis tout petit, et pourtant je reste loin des clichés du geek ou du nerd qui reste dans sa chambre. Je ne suis pas partisan de ces clichés et je n'y ressemble pas du tout. Au quotidien, j'ai très souvent mon ordi avec moi. J'utilise Arch btw :)",
+    "paragraph2": "Depuis 2020, je gère toute l'infrastructure technique d'un ami et créateur de contenu (YouTube/Twitch) à plus d'1 million d'abonnés. Concrètement, ça veut dire des serveurs qui tiennent la charge, de la cybersécurité, du Sysadmin, du management d'équipe et pas mal de temps libre. C'est avec du boulot comme ça que j'ai vraiment appris dans le domaine de l'informatique. J'adore aider, assister, tout en essayant de rester bénévole dans la mesure du possible (team open source vous connaissez).",
+    "paragraph3": "Mais sinon je suis passionné par l'IA, l'espace, les réseaux, la cybersécurité et la musique. J'écoute beaucoup Hans Zimmer et Petit Biscuit quand je bosse. Je suis aussi Twitch Partner, je fais des lives quand j'ai le temps et la motivation, généralement j'aime bien mélanger la technique et le côté créatif.",
+    "paragraph4": "En gros, j'aime comprendre comment les choses marchent, les casser un peu, et les reconstruire en mieux. N'hésitez pas à venir me voir ou me contacter si vous souhaitez en savoir plus, je ne mord pas :D",
+    "skills_title": "Compétences",
+    "music_hint": "Le morceau que j'écoute en boucle quand je code ↓",
+    "interests_title": "Centres d'intérêt",
+    "interests": {
+      "ai": "Intelligence Artificielle",
+      "space": "Espace & Astronomie",
+      "networks": "Réseaux & Cybersécurité",
+      "music": "Musique (Hans Zimmer, Petit Biscuit)",
+      "streaming": "Streaming (Twitch Partner)",
+      "cybersec": "Sécurité informatique"
+    }
+  },
+  "skills_categories": {
+    "academic": "Académique",
+    "passion": "Passions & langages de coeur",
+    "networking": "Réseaux",
+    "software": "Logiciel",
+    "management": "Gestion de projet",
+    "uiux": "UI/UX"
+  },
+  "projects": {
+    "title": "Mes projets",
+    "filter_all": "Tous",
+    "filter_professional": "Professionnel",
+    "filter_personal": "Personnel",
+    "filter_academic": "Académique",
+    "live": "Voir en ligne",
+    "source": "Code source",
+    "no_results": "Aucun projet dans cette catégorie."
+  },
+  "project_items": {
+    "gtacityrp_title": "GTACity RP",
+    "gtacityrp_desc": "Développement solo de la version 7.0 du serveur GTACity Roleplay (~R0NPUlA=~ / <1>Garry's School</1>) réunissant +200 joueurs simultanés. Système d'inventaire in-game, système de téléphone in-game, et bien d'autres fonctionnalités développées sur plus de 6 mois.",
+    "yelpler_title": "Yelpler",
+    "yelpler_desc": "Réseau social fictif copié du thème de X/Twitter, développé en PHP avec système de posts, profils et interactions.",
+    "mdt_title": "MDT (Mobile Data Terminal)",
+    "mdt_desc": "Système MDT policier complet développé en TypeScript avec gestion de dossiers, recherches et intégration temps réel.",
+    "portfolio_title": "Portfolio jarod.info",
+    "portfolio_desc": "Ce portfolio ! Site personnel construit avec React, TypeScript, Tailwind CSS et Framer Motion.",
+    "info1_title": "Projet Info 1",
+    "info1_desc": "Assistant vocal avec Raspberry Pi développé en Python, capable de répondre à des commandes vocales.",
+    "info2_title": "Projet Info 2",
+    "info2_desc": "Site web complet développé avec Python, Flask et MySQL.",
+    "info3_title": "Projet Info 3",
+    "info3_desc": "Optimisations d'algorithmes de plus court chemin en C (Dijkstra, Bellman-Ford).",
+    "info4_title": "Projet Info 4",
+    "info4_desc": "Application Android/iOS de mini-jeux et jeux de table.",
+    "embedded_title": "Feu tricolore ESP32",
+    "embedded_desc": "Système de feu tricolore intelligent avec ESP32 et modules embarqués."
+  },
+  "experience": {
+    "title": "Expérience",
+    "role_sysadmin": "Developer & System Administrator",
+    "company_creator": "~R0NPUlA=~ / Garry's School - Créateur de contenu majeur (1M+ abonnés)",
+    "period_sysadmin": "2020 - Present",
+    "desc_sysadmin_1": "Gestion d'infrastructure serveur accueillant +200 clients simultanés.",
+    "desc_sysadmin_2": "Assistance et mise en place de stratégies de cybersécurité : mitigation DDoS, prévention d'exploit, de code/sql injections, audits réguliers.",
+    "desc_sysadmin_3": "Accomplissement de cahiers des charges complets, de la conception au déploiement en production.",
+    "desc_sysadmin_4": "Organisation de réunions et coordination de projets avec l'influenceur de contenu comme une relation client.",
+    "desc_sysadmin_5": "Bénévole au quotidien avec facturation des gros projets.",
+    "role_video": "Éditeur vidéo - Job étudiant",
+    "company_univ": "École Polytechnique de ~TG91dmFpbg==~ (~VUNMb3V2YWlu~) | ~TG91dmFpbi1sYS1OZXV2ZQ==~",
+    "desc_video_1": "Assistant du professeur ~UGV0ZXIgVmFuIFJveQ==~ pour le montage de vidéos pédagogiques dans plusieurs cours à l'~RVBM~.",
+    "desc_video_2": "Production de contenus éducatifs et pédagogiques.",
+    "desc_video_3": "Montage vidéo/audio avec Audacity et Vegas Pro.",
+    "role_chef_projet": "Chef de projet technique",
+    "company_freelance": "Freelance | Télétravail",
+    "desc_chef_1": "Responsable de projet pour le lancement d'une plateforme communautaire en ligne pour un créateur de contenu.",
+    "desc_chef_2": "Gestion d'une équipe d'une vingtaine de bénévoles : développeurs web (HTML/CSS/JS/React/Node.js), développeurs Lua, graphistes et monteurs vidéo.",
+    "desc_chef_3": "Coordination et supervision technique de l'ensemble des livrables.",
+    "desc_chef_4": "Mise en place d'une organisation agile et gestion de projet via Trello.",
+    "role_volunteer": "Technicien IT - Bénévolat",
+    "company_volunteer": "~Q0lWSVg=~ | Bruxelles",
+    "desc_volunteer_1": "Développement du site web responsive ~Y2l2aXguYmU=~ pour l'association.",
+    "desc_volunteer_2": "Participation au développement d'une application mobile pour les élections de 2024.",
+    "desc_volunteer_3": "Stack utilisée : HTML, CSS, JavaScript, PHP, Bootstrap, FullCalendar."
+  },
+  "academics": {
+    "title": "Formation",
+    "intro": "Spécialisé en informatique depuis mes 15 ans, j'ai d'abord fait 3 ans de lycée en option informatique et math forte. J'ai ensuite entrepris un Bachelor en Sciences Informatiques (180 crédits) à l'~VUNMb3V2YWlu~ École Polytechnique avec la majeure Approfondissement en Sciences Informatiques, obtenu avec la mention Distinction (Cum Laude), suivi du Master (120 crédits) où j'ai choisi les options Réseaux, Cybersécurité et Enjeux de l'entreprise.",
+    "institution": "École Polytechnique - ~VUNMb3V2YWlu~",
+    "bachelor_title": "Bachelor en Sciences Informatiques",
+    "bachelor_info": "180 crédits - 2021-2024",
+    "master_title": "Master en Sciences Informatiques",
+    "master_info": "120 crédits - En cours (2024-2026)",
+    "year": "Année",
+    "course": "Cours",
+    "grade": "Note",
+    "credits": "Crédits",
+    "average": "Moyenne",
+    "bachelor_y1": "1ère année (2021-2022)",
+    "bachelor_y2": "2ème année (2022-2023)",
+    "bachelor_y3": "3ème année (2023-2024)",
+    "master_y1": "1ère année (2024-2025)",
+    "master_y2": "2ème année (2025-2026, en cours)",
+    "download_diploma": "Télécharger le diplôme",
+    "locked_title": "Accès restreint",
+    "locked_desc": "Le téléchargement du diplôme est réservé aux personnes autorisées (recruteurs, entreprises). Si vous pensez devoir y avoir accès, contactez-moi directement.",
+    "locked_links_desc": "L'accès aux fiches de cours est réservé aux personnes autorisées. Si vous pensez devoir y avoir accès, contactez-moi directement."
+  },
+  "thesis": {
+    "title": "Mémoire de fin d'études",
+    "wip": "En construction",
+    "intro": "Mon mémoire de Master en Sciences Informatiques à l'~VUNMb3V2YWlu~. Le sujet sera bientôt défini. Cette page sera mise à jour au fur et à mesure de l'avancement du travail.",
+    "course_name": "Mémoire de fin d'études en Sciences Informatiques",
+    "desc": "Le mémoire peut couvrir des aspects théoriques, expérimentaux, de simulation ou de développement. Il combine rigueur académique et confrontation avec le monde industriel, avec un focus sur la rédaction, la communication et l'argumentation.",
+    "button": "Accéder au mémoire",
+    "coming_soon": "Le sujet et le contenu du mémoire seront publiés ici prochainement.",
+    "locked_desc": "L'accès au mémoire est réservé aux personnes autorisées. Le contenu sera disponible une fois le travail terminé et la soutenance passée. Contactez-moi si vous pensez devoir y avoir accès."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "N'hésitez SURTOUT PAS à me contacter ! Que ce soit pour des projets pro, des commandes, demander une assistance gratuite ou une consultation. Je suis friendly et j'aime aider et conseiller, alors si le temps me le permet je vous aiderais avec plaisir :)",
+    "services_title": "À propos de mes services",
+    "services_desc": "Je ne fonctionne pas avec un tarif horaire fixe. Je préfère m'adapter à chaque client, comprendre son budget et ses besoins pour proposer une offre sur mesure :) Que ce soit pour un petit projet ou une mission plus conséquente, je sais ajuster mes tarifs pour rester accessible. Cette flexibilité me permet de travailler avec des profils très variés, et c'est ce qui me distingue de la plupart des prestataires. L'important pour moi, c'est de livrer un travail de qualité, peu importe l'enveloppe :D",
+    "coffee_title": "Offrir un café",
+    "coffee_desc": "Un petit don m'aide à continuer de promouvoir le bénévolat dans le domaine informatique.",
+    "coffee_button": "Soutenir mon travail",
+    "name": "Nom",
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès !",
+    "error": "Une erreur est survenue. Réessayez plus tard.",
+    "subjects": {
+      "project": "Projet professionnel",
+      "order": "Commande",
+      "info": "Demande d'informations",
+      "recruitment": "Recrutement",
+      "proposal": "Proposition",
+      "ideas": "Idées",
+      "consultation": "Consultation gratuite",
+      "assistance": "Assistance technique",
+      "personal": "Message personnel",
+      "other": "Autre"
+    }
+  },
+  "footer": {
+    "developed_by": "Portfolio développé par Jarod avec Vite.js, React, TypeScript & Tailwind CSS",
+    "rights": "Tous droits réservés.",
+    "last_updated": "Dernière maj : mars 2026"
+  },
+  "not_found": {
+    "title": "404",
+    "message": "Cette page n'existe pas, ou alors j'ai oublié de la push. Dans le doute, retourne à l'accueil :).",
+    "subtitle": "Si tu cherchais un truc précis, hésite pas à me contacter.",
+    "back": "Retour à l'accueil"
+  },
+  "command_menu": {
+    "placeholder": "Chercher ou search...",
+    "navigation": "Navigation",
+    "actions": "Actions",
+    "toggle_theme": "Changer le thème",
+    "toggle_lang": "Switch to English",
+    "open_terminal": "Ouvrir le terminal"
+  },
+  "terminal": {
+    "welcome": "                   -`                 jarod@arch\n                  .o+`                -----------\n                 `ooo/                OS: Arch Linux x86_64\n                `+oooo:               Host: jarod.info\n               `+oooooo:              Kernel: 6.8.12-zen1\n               -+oooooo+:             Uptime: since 2020\n             `/:-:++oooo+:            Shell: zsh 5.9\n            `/++++/+++++++:           WM: i3\n           `/++++++++++++++:          Terminal: st\n          `/+++ooooooooooooo/`        CPU: Passion @ 100%\n         ./ooosssso++osssssso+`       Memory: ∞\n        .oossssso-````/ossssss+`\n       -osssssso.      :ssssssso.     Tape 'help' pour les commandes.\n      :osssssss/        osssso+++.\n     /ossssssss/        +ssssooo/-\n   `/ossssso+/:-        -:/+osssso+-\n  `+sso+:-`                 `.-/+oso:\n `++:.                           `-/+/\n .`                                 `/",
+    "help": "Commandes disponibles: help, neofetch, whoami, ls, cat about.txt, music, stack, secret, ping jarod.info, clear, exit",
+    "whoami": "jarod - étudiant belge, sysadmin, streamer",
+    "ls": "about.txt  projects/  secrets/  .env (jk)  memes/",
+    "cat_about": "Salut ! Je suis Jarod, Master 2 en Informatique.\nPassionné par la sécu, les systèmes, et l'espace.\nQuand je code pas, je stream sur Twitch.",
+    "ping": "PING jarod.info (127.0.0.1): 64 bytes, time=0.042ms\njarod.info is alive and vibing",
+    "music": "En boucle en ce moment :\n  Hans Zimmer - Interstellar OST\n  Petit Biscuit - Sunset Lover\n  C418 - Minecraft Volume Alpha\n  Ludovico Einaudi - Experience\nOui je code avec de la musique de film, et alors ?",
+    "stack": "$ cat package.json | grep -E 'react|vite|tailwind|framer'\n  react: 19.x\n  vite: 6.x\n  tailwindcss: 4.x\n  framer-motion: 11.x\n  typescript: 5.x\n\nHébergé sur un VPS OVH.",
+    "secret": "T'as trouvé le terminal, bien joué.",
+    "not_found": "commande introuvable. Tape 'help' si t'es perdu(e).",
+    "exit": "À plus !"
+  },
+  "unlock": {
+    "entry_title": "Mode confidentiel activé",
+    "entry_desc": "Ce portfolio est actuellement en mode confidentiel. Certaines informations (noms d'institutions, codes de cours, liens) sont masquées. Entrez le code pour afficher le contenu complet, sans censure et sans confidentialité. Si vous souhaitez obtenir le code, n'hésitez pas à me contacter. Si vous êtes un recruteur, vous trouverez le code dans mon mail ou sur mon CV/Lettre de motivation.",
+    "title": "Déverrouiller le site",
+    "desc": "Entrez le code pour afficher le contenu complet.",
+    "placeholder": "Code d'accès",
+    "skip": "Continuer en mode confidentiel"
+  },
+  "loading": {
+    "name": "arod."
+  }
+}
