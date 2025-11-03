@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "academics": "Education",
+    "thesis": "Thesis",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hey, I'm",
+    "name": "Jarod.",
+    "typing_prefix": "My specializations... ",
+    "roles": [
+      "Networking",
+      "Cybersecurity",
+      "Sysadmin",
+      "Project Management",
+      "Team Lead",
+      "Team Management"
+    ],
+    "subtitle": "Master 2 Student in Computer Science",
+    "location": "Belgium",
+    "available": "Available",
+    "cta_projects": "View my projects",
+    "cta_contact": "Get in touch",
+    "cta_source": "View source code"
+  },
+  "currently": {
+    "label": "Right now",
+    "text": "Working on my Master thesis and preparing for my June exams. On the side, I develop and manage the infrastructure for Garry's School and its GTACity Roleplay community. I'm also working for several clients."
+  },
+  "about_preview": {
+    "title": "About",
+    "text": "I'm Jarod, Master 2 student in Computer Science at the Polytechnic School of Louvain in Belgium. Passionate about networking, cybersecurity and systems, I enjoy learning in class but I enjoy learning through my passions even more. I also have a strong interest in project management and the role of technical project lead.",
+    "link": "Learn more"
+  },
+  "featured_projects": {
+    "title": "Featured Projects",
+    "view_all": "View all projects"
+  },
+  "contact_cta": {
+    "title": "Got a project in mind?",
+    "subtitle": "Don't hesitate to reach out to discuss your ideas.",
+    "button": "Get in touch"
+  },
+  "about": {
+    "title": "About me",
+    "intro": "Hey! I'm Jarod, Master 2 student in Computer Science at the Polytechnic School in Belgium. My path's been a bit unconventional, mixing university with real hands-on work.",
+    "paragraph1": "Since 2020 I've been running the entire tech infrastructure for a content creator with 1M+ subscribers. That means servers that actually hold up, cybersecurity, team management, and quite a few sleepless nights. That's how I really learned the craft.",
+    "paragraph2": "On the side, I'm into AI, space, networking & cybersec, and music. I listen to a lot of Hans Zimmer and Petit Biscuit when I code. I'm also a Twitch Partner, so I like blending the technical side with creativity.",
+    "paragraph3": "Basically, I love figuring out how things work, breaking them a little, and rebuilding them better.",
+    "skills_title": "Skills",
+    "music_hint": "The track I listen to on repeat when I code ↓",
+    "interests_title": "Interests",
+    "interests": {
+      "ai": "Artificial Intelligence",
+      "space": "Space & Astronomy",
+      "networks": "Networking & Cybersecurity",
+      "music": "Music (Hans Zimmer, Petit Biscuit)",
+      "streaming": "Streaming (Twitch Partner)",
+      "cybersec": "Computer Security"
+    }
+  },
+  "skills_categories": {
+    "academic": "Academic",
+    "passion": "Passions & languages of the heart",
+    "networking": "Networking",
+    "software": "Software",
+    "management": "Project Management",
+    "uiux": "UI/UX"
+  },
+  "projects": {
+    "title": "My Projects",
+    "filter_all": "All",
+    "filter_professional": "Professional",
+    "filter_personal": "Personal",
+    "filter_academic": "Academic",
+    "live": "View live",
+    "source": "Source code",
+    "no_results": "No projects in this category."
+  },
+  "project_items": {
+    "gtacityrp_title": "GTACity RP",
+    "gtacityrp_desc": "Solo development of the 7.0 version of the GTACity Roleplay server (GCORP / Garry's School) hosting 200+ simultaneous players. In-game inventory system, in-game phone system, and many more features built over 6+ months.",
+    "yelpler_title": "Yelpler",
+    "yelpler_desc": "Fictional social network based on the X/Twitter theme, built in PHP with posts, profiles and interactions.",
+    "mdt_title": "MDT (Mobile Data Terminal)",
+    "mdt_desc": "Complete police MDT system built in TypeScript with case management, searches and real-time integration.",
+    "portfolio_title": "Portfolio jarod.info",
+    "portfolio_desc": "This portfolio! Personal website built with React, TypeScript, Tailwind CSS, and Framer Motion.",
+    "info1_title": "Project Info 1",
+    "info1_desc": "Voice assistant with Raspberry Pi developed in Python, capable of responding to voice commands.",
+    "info2_title": "Project Info 2",
+    "info2_desc": "Full website built with Python, Flask and MySQL.",
+    "info3_title": "Project Info 3",
+    "info3_desc": "Shortest path algorithm optimizations in C (Dijkstra, Bellman-Ford).",
+    "info4_title": "Project Info 4",
+    "info4_desc": "Android/iOS app with mini-games and board games.",
+    "embedded_title": "Traffic Light ESP32",
+    "embedded_desc": "Smart traffic light system with ESP32 and embedded modules."
+  },
+  "experience": {
+    "title": "Experience",
+    "role_sysadmin": "Developer & System Administrator",
+    "company_creator": "GCORP / Garry's School - Major Digital Content Creator (1M+ subscribers)",
+    "period_sysadmin": "2020 - Present",
+    "desc_sysadmin_1": "Managing server infrastructure hosting 200+ concurrent clients.",
+    "desc_sysadmin_2": "Implementing cybersecurity strategies: DDoS mitigation, exploit prevention, code/SQL injection prevention, regular audits.",
+    "desc_sysadmin_3": "Delivering complete specifications from design to production deployment.",
+    "desc_sysadmin_4": "Organizing meetings and coordinating projects with the content creator as a client relationship.",
+    "desc_sysadmin_5": "Volunteer work day-to-day with billing for major projects.",
+    "role_video": "Video Editor - Student Job",
+    "company_uclouvain": "École Polytechnique de Louvain (UCLouvain) | Louvain-la-Neuve",
+    "desc_video_1": "Assistant to Professor Peter Van Roy for editing educational videos across several courses at EPL.",
+    "desc_video_2": "Production of educational and pedagogical content.",
+    "desc_video_3": "Video/audio editing with Audacity and Vegas Pro.",
+    "role_chef_projet": "Technical Project Lead",
+    "company_freelance": "Freelance | Remote",
+    "desc_chef_1": "Project lead for the launch of an online community platform for a content creator.",
+    "desc_chef_2": "Managing a team of around twenty volunteers: web developers (HTML/CSS/JS/React/Node.js), Lua developers, graphic designers and video editors.",
+    "desc_chef_3": "Technical coordination and supervision of all deliverables.",
+    "desc_chef_4": "Implementation of agile organization and project management via Trello.",
+    "role_civix": "IT Technician - Volunteer",
+    "company_civix": "CIVIX | Brussels",
+    "desc_civix_1": "Development of the responsive website civix.be for the association.",
+    "desc_civix_2": "Contributed to the development of a mobile app for the 2024 elections.",
+    "desc_civix_3": "Tech stack: HTML, CSS, JavaScript, PHP, Bootstrap, FullCalendar."
+  },
+  "academics": {
+    "title": "Education",
+    "intro": "Specialized in computer science since I was 15. I completed 3 years of high school with a focus on CS and advanced math. I then pursued a Bachelor in Computer Science (180 credits) at UCLouvain Polytechnic School with the Advanced Computer Science major, graduating with Distinction (Cum Laude), followed by the Master (120 credits) where I chose the Networking, Cybersecurity and Business Challenges options.",
+    "institution": "Polytechnic School - UCLouvain",
+    "bachelor_title": "Bachelor in Computer Science",
+    "bachelor_info": "180 credits - 2021-2024",
+    "master_title": "Master in Computer Science",
+    "master_info": "120 credits - In progress (2024-2026)",
+    "year": "Year",
+    "course": "Course",
+    "grade": "Grade",
+    "credits": "Credits",
+    "average": "Average",
+    "bachelor_y1": "Year 1 (2021-2022)",
+    "bachelor_y2": "Year 2 (2022-2023)",
+    "bachelor_y3": "Year 3 (2023-2024)",
+    "master_y1": "Year 1 (2024-2025)",
+    "master_y2": "Year 2 (2025-2026, in progress)",
+    "download_diploma": "Download diploma",
+    "locked_title": "Restricted access",
+    "locked_desc": "Diploma download is reserved for authorized individuals (recruiters, companies). If you believe you should have access, please contact me directly.",
+    "locked_links_desc": "Access to course pages is reserved for authorized individuals. If you believe you should have access, please contact me directly."
+  },
+  "thesis": {
+    "title": "Master Thesis",
+    "wip": "Work in progress",
+    "intro": "My Master's thesis in Computer Science at UCLouvain. The topic will be defined soon. This page will be updated as the work progresses.",
+    "course_name": "Master Thesis in Computer Science",
+    "desc": "The thesis can cover theoretical, experimental, simulation or development aspects. It combines academic rigor with real-world confrontation, focusing on writing, communication and argumentation.",
+    "button": "Access the thesis",
+    "coming_soon": "The thesis topic and content will be published here soon.",
+    "locked_desc": "Access to the thesis is reserved for authorized individuals. Content will be available once the work is completed and defended. Contact me if you believe you should have access."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Don't hesitate AT ALL to reach out! Whether it's for professional projects, orders, free assistance or a consultation. I'm friendly and I love helping and advising, so if time allows I'll gladly help :)",
+    "coffee_title": "Buy me a coffee",
+    "coffee_desc": "A small donation helps me keep promoting volunteering in the tech field.",
+    "coffee_button": "Support my work",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "An error occurred. Please try again later.",
+    "subjects": {
+      "project": "Professional project",
+      "consultation": "Free consultation",
+      "assistance": "Technical assistance",
+      "other": "Other"
+    }
+  },
+  "footer": {
+    "developed_by": "Portfolio developed by Jarod with Vite.js, React, TypeScript & Tailwind CSS",
+    "rights": "All rights reserved.",
+    "last_updated": "Last updated: March 2026"
+  },
+  "not_found": {
+    "title": "404",
+    "message": "Looks like you're lost. This page doesn't exist, or maybe I forgot to push it. Either way, head back home.",
+    "subtitle": "If you were looking for something specific, feel free to reach out.",
+    "back": "Back to home"
+  },
+  "command_menu": {
+    "placeholder": "Chercher ou search...",
+    "navigation": "Navigation",
+    "actions": "Actions",
+    "toggle_theme": "Toggle theme",
+    "toggle_lang": "Passer en français",
+    "open_terminal": "Open terminal"
+  },
+  "terminal": {
+    "welcome": "Welcome to Jarod's terminal. Type 'help' for commands.",
+    "help": "Available commands: help, whoami, ls, cat about.txt, music, stack, secret, ping jarod.info, clear, exit",
+    "whoami": "jarod - Belgian student, sysadmin, streamer, and a bit of a nerd",
+    "ls": "about.txt  projects/  secrets/  .env (jk)  memes/",
+    "cat_about": "Hey! I'm Jarod, Master 2 in Computer Science.\nPassionate about security, systems, and space.\nWhen I'm not coding, I stream on Twitch or discuss the meaning of life.",
+    "ping": "PING jarod.info (127.0.0.1): 64 bytes, time=0.042ms\njarod.info is alive and vibing",
+    "music": "Currently on repeat:\n  Hans Zimmer - Interstellar OST\n  Petit Biscuit - Sunset Lover\n  C418 - Minecraft Volume Alpha\n  Ludovico Einaudi - Experience\nYes I code to movie soundtracks, fight me.",
+    "stack": "$ cat package.json | grep -E 'react|vite|tailwind|framer'\n  react: 19.x\n  vite: 6.x\n  tailwindcss: 4.x\n  framer-motion: 11.x\n  typescript: 5.x\n\nHosted on an OVH VPS, served by Apache.\nBuilt with lots of Ctrl+Z and way too much coffee.",
+    "secret": "You found the terminal, nice one.\nBut if you want the real secret: I listen to the Interstellar OST\non loop when I debug at 3am.\nNow you know.",
+    "not_found": "command not found. Type 'help' if you're lost.",
+    "exit": "See ya! *closes terminal dramatically*"
+  },
+  "loading": {
+    "name": "arod."
+  }
+}
