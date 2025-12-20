@@ -8,7 +8,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
     const timer = setTimeout(() => {
       setShow(false)
       setTimeout(onComplete, 600)
-    }, 1500)
+    }, 2000)
     return () => clearTimeout(timer)
   }, [onComplete])
 
