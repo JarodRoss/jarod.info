@@ -94,7 +94,7 @@ export default function Navbar({ onCommandMenu }: { onCommandMenu: () => void })
         <AnimatePresence>
           {mobileOpen && (
             <motion.div
-              className="border-t border-zinc-800/30 bg-zinc-950/95 md:hidden"
+              className="border-t border-zinc-800/30 bg-zinc-950/95 backdrop-blur-xl md:hidden"
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
