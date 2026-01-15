@@ -21,7 +21,7 @@ export default function Terminal({ open, onClose }: TerminalProps) {
 
   useEffect(() => {
     if (scrollRef.current) {
-      scrollRef.current.scrollTop = 0
+      scrollRef.current.scrollTop = scrollRef.current.scrollHeight
     }
   }, [history])
 
