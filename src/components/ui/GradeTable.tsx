@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown, Lock, X } from 'lucide-react'
 import { getFormattedNote, calculateAverage } from '@/lib/utils'
+import { censor } from '@/lib/censor'
 import type { AcademicYear } from '@/types'
 
 export default function GradeTable({ academicYear }: { academicYear: AcademicYear }) {
@@ -70,9 +71,9 @@ export default function GradeTable({ academicYear }: { academicYear: AcademicYea
                             onClick={() => setShowLocked(true)}
                             className="mr-2 font-mono text-xs text-accent-blue transition-colors hover:text-white"
                           >
-                            {grade.courseCode}
+                            {censor(grade.courseCode)}
                           </button>
-                          <span className="text-zinc-300">{grade.courseNameKey}</span>
+                          <span className="text-zinc-300">{censor(grade.courseNameKey)}</span>
                         </td>
                         <td className="py-2.5 text-right">
                           {grade.note > 0 ? (

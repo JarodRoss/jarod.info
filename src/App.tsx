@@ -12,6 +12,7 @@ import CommandMenu from '@/components/ui/CommandMenu'
 import ThemeToggle from '@/components/ui/ThemeToggle'
 import LanguageToggle from '@/components/ui/LanguageToggle'
 import Terminal from '@/components/easter-egg/Terminal'
+import UnlockModal from '@/components/ui/UnlockModal'
 
 const Home = lazy(() => import('@/pages/Home'))
 const About = lazy(() => import('@/pages/About'))
@@ -54,6 +55,7 @@ export default function App() {
   const [loading, setLoading] = useState(() => !sessionStorage.getItem('loaded'))
   const [cmdOpen, setCmdOpen] = useState(false)
   const [terminalOpen, setTerminalOpen] = useState(false)
+  const [unlockOpen, setUnlockOpen] = useState(false)
 
   const handleLoadingComplete = useCallback(() => {
     setLoading(false)
@@ -92,7 +94,7 @@ export default function App() {
           <LoadingScreen onComplete={handleLoadingComplete} />
         ) : (
           <SmoothScroll>
-            <Navbar onCommandMenu={() => setCmdOpen(true)} />
+            <Navbar onCommandMenu={() => setCmdOpen(true)} onUnlock={() => setUnlockOpen(true)} />
 
             <div className="fixed right-4 bottom-4 z-40 flex flex-col gap-2">
               <ThemeToggle />
@@ -115,6 +117,7 @@ export default function App() {
               }}
             />
             <Terminal open={terminalOpen} onClose={() => setTerminalOpen(false)} />
+            <UnlockModal open={unlockOpen} onClose={() => setUnlockOpen(false)} />
           </SmoothScroll>
         )}
       </BrowserRouter>

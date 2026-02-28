@@ -2,12 +2,13 @@ import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Lock, LockOpen } from 'lucide-react'
 import { useScrollDirection } from '@/hooks/useScrollDirection'
 import { navItems } from '@/data/navigation'
 import { cn } from '@/lib/utils'
+import { hasCensorship, isUnlocked, lock } from '@/lib/censor'
 
-export default function Navbar({ onCommandMenu }: { onCommandMenu: () => void }) {
+export default function Navbar({ onCommandMenu, onUnlock }: { onCommandMenu: () => void; onUnlock: () => void }) {
   const { t } = useTranslation()
   const location = useLocation()
   const { scrollDirection, scrollY } = useScrollDirection()
@@ -81,6 +82,16 @@ export default function Navbar({ onCommandMenu }: { onCommandMenu: () => void })
             >
               <span>Cmd+K</span>
             </button>
+
+            {hasCensorship() && (
+              <button
+                onClick={isUnlocked() ? lock : onUnlock}
+                className="ml-1 rounded-full border border-zinc-800 bg-zinc-900/50 p-1.5 text-zinc-500 transition-colors hover:border-zinc-700 hover:text-zinc-300"
+                title={isUnlocked() ? 'Verrouiller' : 'Déverrouiller'}
+              >
+                {isUnlocked() ? <LockOpen size={14} /> : <Lock size={14} />}
+              </button>
+            )}
           </div>
 
           <button
