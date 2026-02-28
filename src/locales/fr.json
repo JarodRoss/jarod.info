@@ -232,6 +232,14 @@
     "placeholder": "Code d'accès",
     "skip": "Continuer en mode confidentiel"
   },
+  "unlock": {
+    "entry_title": "Mode confidentiel activé",
+    "entry_desc": "Ce portfolio est actuellement en mode confidentiel. Certaines informations (noms d'institutions, codes de cours, liens) sont masquées. Si vous disposez d'un code d'accès, entrez-le ci-dessous pour afficher le contenu complet.",
+    "title": "Déverrouiller le site",
+    "desc": "Entrez le code pour afficher le contenu complet.",
+    "placeholder": "Code d'accès",
+    "skip": "Continuer en mode confidentiel"
+  },
   "loading": {
     "name": "arod."
   }

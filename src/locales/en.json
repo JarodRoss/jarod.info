@@ -232,6 +232,14 @@
     "placeholder": "Access code",
     "skip": "Continue in confidential mode"
   },
+  "unlock": {
+    "entry_title": "Confidential mode enabled",
+    "entry_desc": "This portfolio is currently in confidential mode. Some information (institution names, course codes, links) is hidden. If you have an access code, enter it below to view the full content.",
+    "title": "Unlock the site",
+    "desc": "Enter the code to view the full content.",
+    "placeholder": "Access code",
+    "skip": "Continue in confidential mode"
+  },
   "loading": {
     "name": "arod."
   }
