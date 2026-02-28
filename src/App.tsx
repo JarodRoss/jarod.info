@@ -13,6 +13,7 @@ import ThemeToggle from '@/components/ui/ThemeToggle'
 import LanguageToggle from '@/components/ui/LanguageToggle'
 import Terminal from '@/components/easter-egg/Terminal'
 import UnlockModal from '@/components/ui/UnlockModal'
+import { hasCensorship, isUnlocked } from '@/lib/censor'
 
 const Home = lazy(() => import('@/pages/Home'))
 const About = lazy(() => import('@/pages/About'))
@@ -56,10 +57,14 @@ export default function App() {
   const [cmdOpen, setCmdOpen] = useState(false)
   const [terminalOpen, setTerminalOpen] = useState(false)
   const [unlockOpen, setUnlockOpen] = useState(false)
+  const [showEntryUnlock, setShowEntryUnlock] = useState(false)
 
   const handleLoadingComplete = useCallback(() => {
     setLoading(false)
     sessionStorage.setItem('loaded', '1')
+    if (hasCensorship() && !isUnlocked()) {
+      setShowEntryUnlock(true)
+    }
   }, [])
 
   useEffect(() => {
@@ -117,7 +122,7 @@ export default function App() {
               }}
             />
             <Terminal open={terminalOpen} onClose={() => setTerminalOpen(false)} />
-            <UnlockModal open={unlockOpen} onClose={() => setUnlockOpen(false)} />
+            <UnlockModal open={unlockOpen || showEntryUnlock} onClose={() => { setUnlockOpen(false); setShowEntryUnlock(false) }} entry={showEntryUnlock} />
           </SmoothScroll>
         )}
       </BrowserRouter>
