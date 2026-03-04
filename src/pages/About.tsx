@@ -18,7 +18,7 @@ export default function About() {
       </Helmet>
 
       <Section className="pt-28">
-        <div className="grid items-center gap-12 lg:grid-cols-2">
+        <div className="grid items-center gap-12 lg:grid-cols-[1fr_300px]">
           <div>
             <motion.h1
               className="mb-8 font-display text-4xl font-bold md:text-5xl"
