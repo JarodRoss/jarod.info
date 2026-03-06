@@ -25,16 +25,15 @@
     "available": "Disponible",
     "cta_projects": "Voir mes projets",
     "cta_contact": "Me contacter",
-    "cta_source": "Code source du site",
-    "cta_cv": "Télécharger mon CV (FR/EN)"
+    "cta_source": "Code source du site"
   },
   "currently": {
     "label": "En ce moment",
-    "text": "Je bosse sur mon mémoire de Master et je prépare mes examens de juin. En parallèle, je développe et gère l'infrastructure de <1>Garry's School</1> et de sa communauté GTACity Roleplay. Je bosse également pour plusieurs clients."
+    "text": "Je bosse sur mon mémoire de Master et je prépare mes examens de juin. En parallèle, je développe et gère l'infrastructure de Garry's School et de sa communauté GTACity Roleplay. Je bosse également pour plusieurs clients."
   },
   "about_preview": {
     "title": "À propos",
-    "text": "Moi c'est Jarod, je suis en Master 2 en Sciences Informatiques à l'École Polytechnique de ~TG91dmFpbg==~ en Belgique. Passionné par les réseaux, la cybersécurité et les systèmes, j'aime apprendre en cours mais j'aime encore mieux apprendre au travers de mes passions. J'ai également un gros attrait pour la gestion de projet et le rôle de chef de projet technique.",
+    "text": "Moi c'est Jarod, je suis en Master 2 en Sciences Informatiques à l'École Polytechnique de Louvain en Belgique. Passionné par les réseaux, la cybersécurité et les systèmes, j'aime apprendre en cours mais j'aime encore mieux apprendre au travers de mes passions. J'ai également un gros attrait pour la gestion de projet et le rôle de chef de projet technique.",
     "link": "En savoir plus"
   },
   "featured_projects": {
@@ -50,7 +49,7 @@
     "title": "À propos de moi",
     "intro": "Salut ! Moi, c'est Jarod. Je suis en Master 2 en sciences informatiques à l'École Polytechnique en Belgique. J'ai un parcours un peu atypique qui mélange les cours et la passion.",
     "paragraph1": "Je touche aux ordinateurs depuis tout petit, et pourtant loin des clichés du geek ou du nerd qui reste dans sa chambre. Je ne suis pas partisan de ces clichés et je n'y ressemble pas du tout. Pourtant, au quotidien, j'ai très souvent mon ordi avec moi et j'utilise Arch pour le travail et le pro, btw.",
-    "paragraph2": "Depuis 2020, je gère toute l'infrastructure technique d'un créateur de contenu et ami (YouTube/Twitch) à plus d'1 million d'abonnés. Concrètement, ça veut dire des serveurs qui tiennent la charge, de la cybersécurité, du management d'équipe et pas mal de temps libre. C'est avec du boulot comme ça que j'ai vraiment appris le domaine de l'informatique. J'aime aider, assister, tout en essayant de rester bénévole (je suis de la team open source).",
+    "paragraph2": "Depuis 2020, je gère toute l'infrastructure technique d'un créateur de contenu (YouTube/Twitch) à plus d'1 million d'abonnés. Concrètement, ça veut dire des serveurs qui tiennent la charge, de la cybersécurité, du management d'équipe et pas mal de temps libre. C'est avec du boulot comme ça que j'ai vraiment appris le domaine de l'informatique. J'aime aider, assister, tout en essayant de rester bénévole (je suis de la team open source).",
     "paragraph3": "À côté de ça, je suis passionné par l'IA, l'espace, les réseaux, la cybersécurité et la musique. J'écoute beaucoup Hans Zimmer et Petit Biscuit quand je bosse. Je suis aussi Twitch Partner, donc j'aime bien mélanger la technique et le côté créatif.",
     "paragraph4": "En gros, j'aime comprendre comment les choses marchent, les casser un peu, et les reconstruire en mieux.",
     "skills_title": "Compétences",
@@ -85,7 +84,7 @@
   },
   "project_items": {
     "gtacityrp_title": "GTACity RP",
-    "gtacityrp_desc": "Développement solo de la version 7.0 du serveur GTACity Roleplay (~R0NPUlA=~ / <1>Garry's School</1>) réunissant +200 joueurs simultanés. Système d'inventaire in-game, système de téléphone in-game, et bien d'autres fonctionnalités développées sur plus de 6 mois.",
+    "gtacityrp_desc": "Développement solo de la version 7.0 du serveur GTACity Roleplay (GCORP / Garry's School) réunissant +200 joueurs simultanés. Système d'inventaire in-game, système de téléphone in-game, et bien d'autres fonctionnalités développées sur plus de 6 mois.",
     "yelpler_title": "Yelpler",
     "yelpler_desc": "Réseau social fictif copié du thème de X/Twitter, développé en PHP avec système de posts, profils et interactions.",
     "mdt_title": "MDT (Mobile Data Terminal)",
@@ -106,7 +105,7 @@
   "experience": {
     "title": "Expérience",
     "role_sysadmin": "Developer & System Administrator",
-    "company_creator": "~R0NPUlA=~ / Garry's School - Créateur de contenu majeur (1M+ abonnés)",
+    "company_creator": "GCORP / Garry's School - Créateur de contenu majeur (1M+ abonnés)",
     "period_sysadmin": "2020 - Present",
     "desc_sysadmin_1": "Gestion d'infrastructure serveur accueillant +200 clients simultanés.",
     "desc_sysadmin_2": "Assistance et mise en place de stratégies de cybersécurité : mitigation DDoS, prévention d'exploit, de code/sql injections, audits réguliers.",
@@ -114,8 +113,8 @@
     "desc_sysadmin_4": "Organisation de réunions et coordination de projets avec l'influenceur de contenu comme une relation client.",
     "desc_sysadmin_5": "Bénévole au quotidien avec facturation des gros projets.",
     "role_video": "Éditeur vidéo - Job étudiant",
-    "company_univ": "École Polytechnique de ~TG91dmFpbg==~ (~VUNMb3V2YWlu~) | ~TG91dmFpbi1sYS1OZXV2ZQ==~",
-    "desc_video_1": "Assistant du professeur ~UGV0ZXIgVmFuIFJveQ==~ pour le montage de vidéos pédagogiques dans plusieurs cours à l'~RVBM~.",
+    "company_uclouvain": "École Polytechnique de Louvain (UCLouvain) | Louvain-la-Neuve",
+    "desc_video_1": "Assistant du professeur Peter Van Roy pour le montage de vidéos pédagogiques dans plusieurs cours à l'EPL.",
     "desc_video_2": "Production de contenus éducatifs et pédagogiques.",
     "desc_video_3": "Montage vidéo/audio avec Audacity et Vegas Pro.",
     "role_chef_projet": "Chef de projet technique",
@@ -124,16 +123,16 @@
     "desc_chef_2": "Gestion d'une équipe d'une vingtaine de bénévoles : développeurs web (HTML/CSS/JS/React/Node.js), développeurs Lua, graphistes et monteurs vidéo.",
     "desc_chef_3": "Coordination et supervision technique de l'ensemble des livrables.",
     "desc_chef_4": "Mise en place d'une organisation agile et gestion de projet via Trello.",
-    "role_volunteer": "Technicien IT - Bénévolat",
-    "company_volunteer": "~Q0lWSVg=~ | Bruxelles",
-    "desc_volunteer_1": "Développement du site web responsive ~Y2l2aXguYmU=~ pour l'association.",
-    "desc_volunteer_2": "Participation au développement d'une application mobile pour les élections de 2024.",
-    "desc_volunteer_3": "Stack utilisée : HTML, CSS, JavaScript, PHP, Bootstrap, FullCalendar."
+    "role_civix": "Technicien IT - Bénévolat",
+    "company_civix": "CIVIX | Bruxelles",
+    "desc_civix_1": "Développement du site web responsive civix.be pour l'association.",
+    "desc_civix_2": "Participation au développement d'une application mobile pour les élections de 2024.",
+    "desc_civix_3": "Stack utilisée : HTML, CSS, JavaScript, PHP, Bootstrap, FullCalendar."
   },
   "academics": {
     "title": "Formation",
-    "intro": "Spécialisé en informatique depuis mes 15 ans, j'ai d'abord fait 3 ans de lycée en option informatique et math forte. J'ai ensuite entrepris un Bachelor en Sciences Informatiques (180 crédits) à l'~VUNMb3V2YWlu~ École Polytechnique avec la majeure Approfondissement en Sciences Informatiques, obtenu avec la mention Distinction (Cum Laude), suivi du Master (120 crédits) où j'ai choisi les options Réseaux, Cybersécurité et Enjeux de l'entreprise.",
-    "institution": "École Polytechnique - ~VUNMb3V2YWlu~",
+    "intro": "Spécialisé en informatique depuis mes 15 ans, j'ai d'abord fait 3 ans de lycée en option informatique et math forte. J'ai ensuite entrepris un Bachelor en Sciences Informatiques (180 crédits) à l'UCLouvain École Polytechnique avec la majeure Approfondissement en Sciences Informatiques, obtenu avec la mention Distinction (Cum Laude), suivi du Master (120 crédits) où j'ai choisi les options Réseaux, Cybersécurité et Enjeux de l'entreprise.",
+    "institution": "École Polytechnique - UCLouvain",
     "bachelor_title": "Bachelor en Sciences Informatiques",
     "bachelor_info": "180 crédits - 2021-2024",
     "master_title": "Master en Sciences Informatiques",
@@ -156,7 +155,7 @@
   "thesis": {
     "title": "Mémoire de fin d'études",
     "wip": "En construction",
-    "intro": "Mon mémoire de Master en Sciences Informatiques à l'~VUNMb3V2YWlu~. Le sujet sera bientôt défini. Cette page sera mise à jour au fur et à mesure de l'avancement du travail.",
+    "intro": "Mon mémoire de Master en Sciences Informatiques à l'UCLouvain. Le sujet sera bientôt défini. Cette page sera mise à jour au fur et à mesure de l'avancement du travail.",
     "course_name": "Mémoire de fin d'études en Sciences Informatiques",
     "desc": "Le mémoire peut couvrir des aspects théoriques, expérimentaux, de simulation ou de développement. Il combine rigueur académique et confrontation avec le monde industriel, avec un focus sur la rédaction, la communication et l'argumentation.",
     "button": "Accéder au mémoire",
@@ -166,8 +165,6 @@
   "contact": {
     "title": "Contact",
     "subtitle": "N'hésitez SURTOUT PAS à me contacter ! Que ce soit pour des projets pro, des commandes, demander une assistance gratuite ou une consultation. Je suis friendly et j'aime aider et conseiller, alors si le temps me le permet je vous aiderais avec plaisir :)",
-    "services_title": "À propos de mes services",
-    "services_desc": "Je ne fonctionne pas avec un tarif horaire fixe. Je préfère m'adapter à chaque client, comprendre son budget et ses besoins pour proposer une offre sur mesure :) Que ce soit pour un petit projet ou une mission plus conséquente, je sais ajuster mes tarifs pour rester accessible. Cette flexibilité me permet de travailler avec des profils très variés, et c'est ce qui me distingue de la plupart des prestataires. L'important pour moi, c'est de livrer un travail de qualité, peu importe l'enveloppe :D",
     "coffee_title": "Offrir un café",
     "coffee_desc": "Un petit don m'aide à continuer de promouvoir le bénévolat dans le domaine informatique.",
     "coffee_button": "Soutenir mon travail",
@@ -181,14 +178,8 @@
     "error": "Une erreur est survenue. Réessayez plus tard.",
     "subjects": {
       "project": "Projet professionnel",
-      "order": "Commande",
-      "info": "Demande d'informations",
-      "recruitment": "Recrutement",
-      "proposal": "Proposition",
-      "ideas": "Idées",
       "consultation": "Consultation gratuite",
       "assistance": "Assistance technique",
-      "personal": "Message personnel",
       "other": "Autre"
     }
   },
@@ -214,23 +205,15 @@
   "terminal": {
     "welcome": "Bienvenue dans le terminal de Jarod. Tape 'help' pour les commandes.",
     "help": "Commandes disponibles: help, whoami, ls, cat about.txt, music, stack, secret, ping jarod.info, clear, exit",
-    "whoami": "jarod - étudiant belge, sysadmin, streamer",
+    "whoami": "jarod - étudiant belge, sysadmin, streamer, et un peu nerd sur les bords",
     "ls": "about.txt  projects/  secrets/  .env (jk)  memes/",
     "cat_about": "Salut ! Je suis Jarod, Master 2 en Informatique.\nPassionné par la sécu, les systèmes, et l'espace.\nQuand je code pas, je stream sur Twitch.",
     "ping": "PING jarod.info (127.0.0.1): 64 bytes, time=0.042ms\njarod.info is alive and vibing",
     "music": "En boucle en ce moment :\n  Hans Zimmer - Interstellar OST\n  Petit Biscuit - Sunset Lover\n  C418 - Minecraft Volume Alpha\n  Ludovico Einaudi - Experience\nOui je code avec de la musique de film, et alors ?",
-    "stack": "$ cat package.json | grep -E 'react|vite|tailwind|framer'\n  react: 19.x\n  vite: 6.x\n  tailwindcss: 4.x\n  framer-motion: 11.x\n  typescript: 5.x\n\nHébergé sur un VPS OVH.",
-    "secret": "T'as trouvé le terminal, bien joué.",
+    "stack": "$ cat package.json | grep -E 'react|vite|tailwind|framer'\n  react: 19.x\n  vite: 6.x\n  tailwindcss: 4.x\n  framer-motion: 11.x\n  typescript: 5.x\n\nHébergé sur un VPS OVH, servi par Apache.\nCodé avec mass Ctrl+Z et beaucoup de café.",
+    "secret": "T'as trouvé le terminal, bien joué.\nMais si tu veux le vrai secret : j'écoute la BO d'Interstellar\nen boucle quand je debug à 3h du mat.\nMaintenant tu sais.",
     "not_found": "commande introuvable. Tape 'help' si t'es perdu(e).",
-    "exit": "À plus !"
-  },
-  "unlock": {
-    "entry_title": "Mode confidentiel activé",
-    "entry_desc": "Ce portfolio est actuellement en mode confidentiel. Certaines informations (noms d'institutions, codes de cours, liens) sont masquées. Entrez le code pour afficher le contenu complet, sans censure et sans confidentialité. Si vous souhaitez obtenir le code, n'hésitez pas à me contacter. Si vous êtes un recruteur, vous trouverez le code dans mon mail ou sur mon CV/Lettre de motivation.",
-    "title": "Déverrouiller le site",
-    "desc": "Entrez le code pour afficher le contenu complet.",
-    "placeholder": "Code d'accès",
-    "skip": "Continuer en mode confidentiel"
+    "exit": "À plus ! *ferme le terminal dramatiquement*"
   },
   "unlock": {
     "entry_title": "Mode confidentiel activé",
