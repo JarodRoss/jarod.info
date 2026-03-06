@@ -11,7 +11,7 @@ export default function AboutPreview() {
     <Section>
       <div className="grid items-center gap-10 lg:grid-cols-[auto_1fr]">
         <motion.img
-          src="/images/aQRHfKY.png"
+          src="/images/jarod.png"
           alt="Jarod"
           className="mx-auto h-48 w-48 rounded-2xl border border-zinc-800 object-cover lg:hidden"
           initial={{ opacity: 0 }}

@@ -33,6 +33,7 @@ export default function About() {
               <p>{t('about.paragraph1')}</p>
               <p>{t('about.paragraph2')}</p>
               <p>{t('about.paragraph3')}</p>
+              <p>{t('about.paragraph4')}</p>
             </div>
           </div>
           <motion.div
@@ -43,7 +44,7 @@ export default function About() {
           >
             <div className="relative">
               <img
-                src="/images/aQRHfKY.png"
+                src="/images/jarod.png"
                 alt="Jarod"
                 className="relative z-10 w-full rounded-2xl border border-zinc-800/50 object-cover"
               />
