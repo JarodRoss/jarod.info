@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
-import { Github, Twitch, Mail, Coffee, Heart, type LucideIcon } from 'lucide-react'
+import { Github, Twitch, Mail, Coffee, Heart, Handshake, type LucideIcon } from 'lucide-react'
 import PageTransition from '@/components/layout/PageTransition'
 import Section from '@/components/ui/Section'
 import ContactForm from '@/components/ui/ContactForm'
@@ -46,6 +46,22 @@ export default function Contact() {
               })}
             </div>
           </div>
+        </div>
+      </Section>
+
+      <Section>
+        <div className="glow-card mx-auto max-w-2xl rounded-2xl border border-zinc-800/60 bg-zinc-900/70 p-8">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-zinc-800 bg-zinc-800/60">
+              <Handshake size={20} className="text-accent-blue" />
+            </div>
+            <h3 className="font-display text-lg font-bold text-white">
+              {t('contact.services_title')}
+            </h3>
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-400">
+            {t('contact.services_desc')}
+          </p>
         </div>
       </Section>
 
