@@ -26,6 +26,9 @@ export default function Projects() {
     <PageTransition>
       <Helmet>
         <title>Jarod | {t('nav.projects')}</title>
+        <meta property="og:title" content="Jarod | Projects" />
+        <meta property="og:description" content="Professional, personal and academic projects in web development, systems and cybersecurity." />
+        <meta property="og:url" content="https://jarod.info/projects" />
       </Helmet>
 
       <Section className="pt-28">

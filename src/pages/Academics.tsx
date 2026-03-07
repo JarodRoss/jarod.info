@@ -16,6 +16,9 @@ export default function Academics() {
     <PageTransition>
       <Helmet>
         <title>Jarod | {t('nav.academics')}</title>
+        <meta property="og:title" content="Jarod | Education" />
+        <meta property="og:description" content="Bachelor & Master in Computer Science. Networking, Cybersecurity & Business Challenges." />
+        <meta property="og:url" content="https://jarod.info/academics" />
       </Helmet>
 
       <Section className="pt-28">

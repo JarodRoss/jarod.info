@@ -11,6 +11,9 @@ export default function Home() {
     <PageTransition>
       <Helmet>
         <title>Jarod | Portfolio</title>
+        <meta property="og:title" content="Jarod | Portfolio" />
+        <meta property="og:description" content="Master 2 Computer Science Student. Networking, Cybersecurity, Systems & Infrastructure." />
+        <meta property="og:url" content="https://jarod.info" />
       </Helmet>
       <Hero />
       <CurrentlyDoing />

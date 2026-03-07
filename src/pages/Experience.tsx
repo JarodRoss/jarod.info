@@ -12,6 +12,9 @@ export default function Experience() {
     <PageTransition>
       <Helmet>
         <title>Jarod | {t('nav.experience')}</title>
+        <meta property="og:title" content="Jarod | Experience" />
+        <meta property="og:description" content="Sysadmin, developer, technical project lead. Managing infrastructure for 200+ concurrent users since 2020." />
+        <meta property="og:url" content="https://jarod.info/experience" />
       </Helmet>
 
       <Section className="pt-28">
