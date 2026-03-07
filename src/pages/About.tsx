@@ -15,6 +15,9 @@ export default function About() {
     <PageTransition>
       <Helmet>
         <title>Jarod | {t('nav.about')}</title>
+        <meta property="og:title" content="Jarod | About" />
+        <meta property="og:description" content="Computer Science student passionate about networking, cybersecurity, systems and open source." />
+        <meta property="og:url" content="https://jarod.info/about" />
       </Helmet>
 
       <Section className="pt-28">

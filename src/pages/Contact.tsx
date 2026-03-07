@@ -15,6 +15,9 @@ export default function Contact() {
     <PageTransition>
       <Helmet>
         <title>Jarod | {t('nav.contact')}</title>
+        <meta property="og:title" content="Jarod | Contact" />
+        <meta property="og:description" content="Get in touch for projects, orders, technical assistance or just to chat." />
+        <meta property="og:url" content="https://jarod.info/contact" />
       </Helmet>
 
       <Section className="pt-28">

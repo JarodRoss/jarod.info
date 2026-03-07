@@ -15,6 +15,9 @@ export default function Thesis() {
     <PageTransition>
       <Helmet>
         <title>Jarod | {t('nav.thesis')}</title>
+        <meta property="og:title" content="Jarod | Thesis" />
+        <meta property="og:description" content="Master thesis in Computer Science. Work in progress." />
+        <meta property="og:url" content="https://jarod.info/thesis" />
       </Helmet>
 
       <Section className="pt-28">
