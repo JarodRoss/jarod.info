@@ -50,40 +50,40 @@ export default function Contact() {
       </Section>
 
       <Section>
-        <div className="glow-card mx-auto max-w-2xl rounded-2xl border border-zinc-800/60 bg-zinc-900/70 p-8">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-zinc-800 bg-zinc-800/60">
-              <Handshake size={20} className="text-accent-blue" />
+        <div className="grid gap-6 lg:grid-cols-2">
+          <div className="glow-card flex flex-col rounded-2xl border border-zinc-800/60 bg-zinc-900/70 p-8">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-zinc-800 bg-zinc-800/60">
+                <Handshake size={20} className="text-accent-blue" />
+              </div>
+              <h3 className="font-display text-lg font-bold text-white">
+                {t('contact.services_title')}
+              </h3>
             </div>
-            <h3 className="font-display text-lg font-bold text-white">
-              {t('contact.services_title')}
-            </h3>
+            <p className="text-sm leading-relaxed text-zinc-400">
+              {t('contact.services_desc')}
+            </p>
           </div>
-          <p className="text-sm leading-relaxed text-zinc-400">
-            {t('contact.services_desc')}
-          </p>
-        </div>
-      </Section>
 
-      <Section>
-        <div className="glow-card mx-auto max-w-xl rounded-2xl border border-zinc-800/60 bg-zinc-900/70 p-8 text-center">
-          <Coffee size={28} className="mx-auto mb-4 text-amber-400" />
-          <h3 className="mb-2 font-display text-lg font-bold text-white">
-            {t('contact.coffee_title')}
-          </h3>
-          <p className="mb-5 text-sm leading-relaxed text-zinc-400">
-            {t('contact.coffee_desc')}
-          </p>
-          <a
-            href="https://streamlabs.com/jarod_ross/tip"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-medium text-white transition-all hover:shadow-lg hover:shadow-amber-500/20"
-            style={{ background: 'linear-gradient(135deg, #f59e0b, #ef4444)' }}
-          >
-            <Heart size={16} fill="currentColor" />
-            {t('contact.coffee_button')}
-          </a>
+          <div className="glow-card flex flex-col items-center justify-center rounded-2xl border border-zinc-800/60 bg-zinc-900/70 p-8 text-center">
+            <Coffee size={28} className="mb-4 text-amber-400" />
+            <h3 className="mb-2 font-display text-lg font-bold text-white">
+              {t('contact.coffee_title')}
+            </h3>
+            <p className="mb-5 text-sm leading-relaxed text-zinc-400">
+              {t('contact.coffee_desc')}
+            </p>
+            <a
+              href="https://streamlabs.com/jarod_ross/tip"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-medium text-white transition-all hover:shadow-lg hover:shadow-amber-500/20"
+              style={{ background: 'linear-gradient(135deg, #f59e0b, #ef4444)' }}
+            >
+              <Heart size={16} fill="currentColor" />
+              {t('contact.coffee_button')}
+            </a>
+          </div>
         </div>
       </Section>
     </PageTransition>
