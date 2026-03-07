@@ -217,7 +217,7 @@
   },
   "unlock": {
     "entry_title": "Confidential mode enabled",
-    "entry_desc": "This portfolio is currently in confidential mode. Some information (institution names, course codes, links) is hidden. If you have an access code, enter it below to view the full content.",
+    "entry_desc": "This portfolio is currently in confidential mode. Some information (institution names, course codes, links) is hidden. Enter the code to view the full content, without censorship or confidentiality. If you'd like to get the code, feel free to contact me. If you're a recruiter, you'll find the code in my email or on my CV/cover letter.",
     "title": "Unlock the site",
     "desc": "Enter the code to view the full content.",
     "placeholder": "Access code",
