@@ -206,15 +206,15 @@
   "terminal": {
     "welcome": "Bienvenue dans le terminal de Jarod. Tape 'help' pour les commandes.",
     "help": "Commandes disponibles: help, whoami, ls, cat about.txt, music, stack, secret, ping jarod.info, clear, exit",
-    "whoami": "jarod - étudiant belge, sysadmin, streamer, et un peu nerd sur les bords",
+    "whoami": "jarod - étudiant belge, sysadmin, streamer",
     "ls": "about.txt  projects/  secrets/  .env (jk)  memes/",
     "cat_about": "Salut ! Je suis Jarod, Master 2 en Informatique.\nPassionné par la sécu, les systèmes, et l'espace.\nQuand je code pas, je stream sur Twitch.",
     "ping": "PING jarod.info (127.0.0.1): 64 bytes, time=0.042ms\njarod.info is alive and vibing",
     "music": "En boucle en ce moment :\n  Hans Zimmer - Interstellar OST\n  Petit Biscuit - Sunset Lover\n  C418 - Minecraft Volume Alpha\n  Ludovico Einaudi - Experience\nOui je code avec de la musique de film, et alors ?",
-    "stack": "$ cat package.json | grep -E 'react|vite|tailwind|framer'\n  react: 19.x\n  vite: 6.x\n  tailwindcss: 4.x\n  framer-motion: 11.x\n  typescript: 5.x\n\nHébergé sur un VPS OVH, servi par Apache.\nCodé avec mass Ctrl+Z et beaucoup de café.",
-    "secret": "T'as trouvé le terminal, bien joué.\nMais si tu veux le vrai secret : j'écoute la BO d'Interstellar\nen boucle quand je debug à 3h du mat.\nMaintenant tu sais.",
+    "stack": "$ cat package.json | grep -E 'react|vite|tailwind|framer'\n  react: 19.x\n  vite: 6.x\n  tailwindcss: 4.x\n  framer-motion: 11.x\n  typescript: 5.x\n\nHébergé sur un VPS OVH.",
+    "secret": "T'as trouvé le terminal, bien joué.",
     "not_found": "commande introuvable. Tape 'help' si t'es perdu(e).",
-    "exit": "À plus ! *ferme le terminal dramatiquement*"
+    "exit": "À plus !"
   },
   "unlock": {
     "entry_title": "Mode confidentiel activé",
