@@ -19,7 +19,7 @@ export const mesExperiences: Experience[] = [
   {
     id: 'video-editor',
     roleKey: 'experience.role_video',
-    companyKey: 'experience.company_uclouvain',
+    companyKey: 'experience.company_univ',
     period: 'Oct 2023 - Oct 2024',
     descriptionKeys: [
       'experience.desc_video_1',
@@ -42,14 +42,14 @@ export const mesExperiences: Experience[] = [
     tags: ['Trello', 'Agile/SCRUM', 'React', 'Node.js', 'Lua', 'GLua', 'Team Management'],
   },
   {
-    id: 'civix',
-    roleKey: 'experience.role_civix',
-    companyKey: 'experience.company_civix',
+    id: 'volunteer-it',
+    roleKey: 'experience.role_volunteer',
+    companyKey: 'experience.company_volunteer',
     period: '2022 - 2024',
     descriptionKeys: [
-      'experience.desc_civix_1',
-      'experience.desc_civix_2',
-      'experience.desc_civix_3',
+      'experience.desc_volunteer_1',
+      'experience.desc_volunteer_2',
+      'experience.desc_volunteer_3',
     ],
     tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Bootstrap'],
   },

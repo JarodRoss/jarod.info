@@ -8,7 +8,7 @@ i18n
   .use({
     type: 'postProcessor',
     name: 'censor',
-    process: (value: string) => censor(value),
+    process: (value: string) => censor(value.replace(/~([A-Za-z0-9+/=]+)~/g, (_, b) => atob(b))),
   } as any)
   .use(initReactI18next)
   .init({

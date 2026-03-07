@@ -84,7 +84,7 @@ export default function UnlockModal({ open, onClose, entry = false }: { open: bo
         {entry && (
           <button
             onClick={onClose}
-            className="mt-3 w-full text-center text-xs text-zinc-600 transition-colors hover:text-zinc-400"
+            className="mt-4 w-full rounded-lg border border-zinc-800 py-2 text-center text-sm text-zinc-400 transition-colors hover:border-zinc-600 hover:text-zinc-200"
           >
             {t('unlock.skip')}
           </button>
