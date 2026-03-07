@@ -24,6 +24,7 @@ export default function ContactForm() {
           email: data.get('email'),
           subject: data.get('subject'),
           message: data.get('message'),
+          website: data.get('website'),
         }),
       })
 
@@ -42,6 +43,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
+      <input type="text" name="website" className="hidden" tabIndex={-1} autoComplete="off" />
       <div className="grid gap-5 md:grid-cols-2">
         <div>
           <label className="mb-2 block text-sm font-medium text-zinc-400">{t('contact.name')}</label>
