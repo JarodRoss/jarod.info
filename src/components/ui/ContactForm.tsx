@@ -73,8 +73,14 @@ export default function ContactForm() {
           className={inputClasses}
         >
           <option value="project">{t('contact.subjects.project')}</option>
+          <option value="order">{t('contact.subjects.order')}</option>
+          <option value="info">{t('contact.subjects.info')}</option>
+          <option value="recruitment">{t('contact.subjects.recruitment')}</option>
+          <option value="proposal">{t('contact.subjects.proposal')}</option>
+          <option value="ideas">{t('contact.subjects.ideas')}</option>
           <option value="consultation">{t('contact.subjects.consultation')}</option>
           <option value="assistance">{t('contact.subjects.assistance')}</option>
+          <option value="personal">{t('contact.subjects.personal')}</option>
           <option value="other">{t('contact.subjects.other')}</option>
         </select>
       </div>
