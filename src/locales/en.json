@@ -25,7 +25,8 @@
     "available": "Available",
     "cta_projects": "View my projects",
     "cta_contact": "Get in touch",
-    "cta_source": "View source code"
+    "cta_source": "View source code",
+    "cta_cv": "Download my CV (FR/EN)"
   },
   "currently": {
     "label": "Right now",

@@ -25,7 +25,8 @@
     "available": "Disponible",
     "cta_projects": "Voir mes projets",
     "cta_contact": "Me contacter",
-    "cta_source": "Code source du site"
+    "cta_source": "Code source du site",
+    "cta_cv": "Télécharger mon CV (FR/EN)"
   },
   "currently": {
     "label": "En ce moment",
