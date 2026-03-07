@@ -179,8 +179,14 @@
     "error": "An error occurred. Please try again later.",
     "subjects": {
       "project": "Professional project",
+      "order": "Order",
+      "info": "Information request",
+      "recruitment": "Recruitment",
+      "proposal": "Proposal",
+      "ideas": "Ideas",
       "consultation": "Free consultation",
       "assistance": "Technical assistance",
+      "personal": "Personal message",
       "other": "Other"
     }
   },

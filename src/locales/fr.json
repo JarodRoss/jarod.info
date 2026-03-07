@@ -179,8 +179,14 @@
     "error": "Une erreur est survenue. Réessayez plus tard.",
     "subjects": {
       "project": "Projet professionnel",
+      "order": "Commande",
+      "info": "Demande d'informations",
+      "recruitment": "Recrutement",
+      "proposal": "Proposition",
+      "ideas": "Idées",
       "consultation": "Consultation gratuite",
       "assistance": "Assistance technique",
+      "personal": "Message personnel",
       "other": "Autre"
     }
   },
