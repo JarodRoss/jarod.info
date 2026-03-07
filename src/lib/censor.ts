@@ -30,7 +30,9 @@ export function censor(text: string): string {
 
   for (const word of CENSOR_WORDS) {
     const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    result = result.replace(new RegExp(escaped, 'gi'), C.repeat(word.length))
+    const isAlpha = /^[a-zA-Z]+$/.test(word)
+    const pattern = isAlpha ? `\\b${escaped}\\b` : escaped
+    result = result.replace(new RegExp(pattern, 'gi'), C.repeat(word.length))
   }
 
   if (CENSOR_COURSES) {
