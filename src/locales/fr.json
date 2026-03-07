@@ -29,7 +29,7 @@
   },
   "currently": {
     "label": "En ce moment",
-    "text": "Je bosse sur mon mémoire de Master et je prépare mes examens de juin. En parallèle, je développe et gère l'infrastructure de Garry's School et de sa communauté GTACity Roleplay. Je bosse également pour plusieurs clients."
+    "text": "Je bosse sur mon mémoire de Master et je prépare mes examens de juin. En parallèle, je développe et gère l'infrastructure de <1>Garry's School</1> et de sa communauté GTACity Roleplay. Je bosse également pour plusieurs clients."
   },
   "about_preview": {
     "title": "À propos",
@@ -84,7 +84,7 @@
   },
   "project_items": {
     "gtacityrp_title": "GTACity RP",
-    "gtacityrp_desc": "Développement solo de la version 7.0 du serveur GTACity Roleplay (GCORP / Garry's School) réunissant +200 joueurs simultanés. Système d'inventaire in-game, système de téléphone in-game, et bien d'autres fonctionnalités développées sur plus de 6 mois.",
+    "gtacityrp_desc": "Développement solo de la version 7.0 du serveur GTACity Roleplay (GCORP / <1>Garry's School</1>) réunissant +200 joueurs simultanés. Système d'inventaire in-game, système de téléphone in-game, et bien d'autres fonctionnalités développées sur plus de 6 mois.",
     "yelpler_title": "Yelpler",
     "yelpler_desc": "Réseau social fictif copié du thème de X/Twitter, développé en PHP avec système de posts, profils et interactions.",
     "mdt_title": "MDT (Mobile Data Terminal)",

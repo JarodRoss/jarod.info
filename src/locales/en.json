@@ -29,7 +29,7 @@
   },
   "currently": {
     "label": "Right now",
-    "text": "Working on my Master thesis and preparing for my June exams. On the side, I develop and manage the infrastructure for Garry's School and its GTACity Roleplay community. I'm also working for several clients."
+    "text": "Working on my Master thesis and preparing for my June exams. On the side, I develop and manage the infrastructure for <1>Garry's School</1> and its GTACity Roleplay community. I'm also working for several clients."
   },
   "about_preview": {
     "title": "About",
@@ -84,7 +84,7 @@
   },
   "project_items": {
     "gtacityrp_title": "GTACity RP",
-    "gtacityrp_desc": "Solo development of the 7.0 version of the GTACity Roleplay server (GCORP / Garry's School) hosting 200+ simultaneous players. In-game inventory system, in-game phone system, and many more features built over 6+ months.",
+    "gtacityrp_desc": "Solo development of the 7.0 version of the GTACity Roleplay server (GCORP / <1>Garry's School</1>) hosting 200+ simultaneous players. In-game inventory system, in-game phone system, and many more features built over 6+ months.",
     "yelpler_title": "Yelpler",
     "yelpler_desc": "Fictional social network based on the X/Twitter theme, built in PHP with posts, profiles and interactions.",
     "mdt_title": "MDT (Mobile Data Terminal)",

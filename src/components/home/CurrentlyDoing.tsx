@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next'
+import { Trans, useTranslation } from 'react-i18next'
 import Section from '@/components/ui/Section'
 
 export default function CurrentlyDoing() {
@@ -9,7 +9,11 @@ export default function CurrentlyDoing() {
       <div className="grid gap-4 md:grid-cols-[1fr_320px]">
         <div className="rounded-2xl border border-zinc-800 bg-zinc-900/50 px-6 py-5">
           <p className="text-sm text-zinc-500">{t('currently.label')}</p>
-          <p className="mt-1 text-zinc-300">{t('currently.text')}</p>
+          <p className="mt-1 text-zinc-300">
+            <Trans i18nKey="currently.text" components={{
+              1: <a href="https://www.youtube.com/@garryschool" target="_blank" rel="noopener noreferrer" className="text-accent-blue hover:underline" />,
+            }} />
+          </p>
         </div>
         <div className="overflow-hidden rounded-2xl border border-zinc-800">
           <iframe
