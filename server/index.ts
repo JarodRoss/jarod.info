@@ -89,7 +89,6 @@ app.post('/api/contact', async (req, res) => {
     })
     res.json({ success: true })
   } catch (error) {
-    console.error('Email error:', error)
     res.status(500).json({ error: 'Failed to send email' })
   }
 })
@@ -98,6 +97,29 @@ app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok' })
 })
 
-app.listen(PORT, () => {
-  console.log(`API server running on port ${PORT}`)
+app.get('/u/script.js', async (_req, res) => {
+  try {
+    const r = await fetch('https://cloud.umami.is/script.js')
+    res.set('Content-Type', 'application/javascript')
+    res.set('Cache-Control', 'public, max-age=86400')
+    res.send(await r.text())
+  } catch { res.status(502).end() }
 })
+
+app.post('/u/api/send', async (req, res) => {
+  try {
+    const fwdHeaders: Record<string, string> = { 'Content-Type': 'application/json' }
+    if (req.headers['user-agent']) fwdHeaders['User-Agent'] = req.headers['user-agent'] as string
+    if (req.headers['referer']) fwdHeaders['Referer'] = req.headers['referer'] as string
+    if (req.headers['accept-language']) fwdHeaders['Accept-Language'] = req.headers['accept-language'] as string
+    if (req.headers['x-forwarded-for']) fwdHeaders['X-Forwarded-For'] = req.headers['x-forwarded-for'] as string
+    const r = await fetch('https://cloud.umami.is/api/send', {
+      method: 'POST',
+      headers: fwdHeaders,
+      body: JSON.stringify(req.body),
+    })
+    res.status(r.status).json(await r.json())
+  } catch { res.status(502).end() }
+})
+
+app.listen(PORT)
