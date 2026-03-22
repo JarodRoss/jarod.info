@@ -12,6 +12,7 @@ import CommandMenu from '@/components/ui/CommandMenu'
 import ThemeToggle from '@/components/ui/ThemeToggle'
 import LanguageToggle from '@/components/ui/LanguageToggle'
 import Terminal from '@/components/easter-egg/Terminal'
+import type { Tool } from '@/data/tools'
 import UnlockModal from '@/components/ui/UnlockModal'
 import { hasCensorship, isUnlocked } from '@/lib/censor'
 
@@ -56,6 +57,7 @@ export default function App() {
   const [loading, setLoading] = useState(() => !sessionStorage.getItem('loaded'))
   const [cmdOpen, setCmdOpen] = useState(false)
   const [terminalOpen, setTerminalOpen] = useState(false)
+  const [pendingInstall, setPendingInstall] = useState<Tool | null>(null)
   const [unlockOpen, setUnlockOpen] = useState(false)
   const [showEntryUnlock, setShowEntryUnlock] = useState(false)
 
@@ -65,6 +67,16 @@ export default function App() {
     if (hasCensorship() && !isUnlocked()) {
       setShowEntryUnlock(true)
     }
+  }, [])
+
+  useEffect(() => {
+    const handleToolInstall = (e: Event) => {
+      const tool = (e as CustomEvent).detail as Tool
+      setPendingInstall(tool)
+      setTerminalOpen(true)
+    }
+    window.addEventListener('install-tool', handleToolInstall)
+    return () => window.removeEventListener('install-tool', handleToolInstall)
   }, [])
 
   useEffect(() => {
@@ -121,7 +133,12 @@ export default function App() {
                 setTerminalOpen(true)
               }}
             />
-            <Terminal open={terminalOpen} onClose={() => setTerminalOpen(false)} />
+            <Terminal
+              open={terminalOpen}
+              onClose={() => { setTerminalOpen(false); setPendingInstall(null) }}
+              pendingInstall={pendingInstall}
+              onInstallDone={() => setPendingInstall(null)}
+            />
             <UnlockModal open={unlockOpen || showEntryUnlock} onClose={() => { setUnlockOpen(false); setShowEntryUnlock(false) }} entry={showEntryUnlock} />
           </SmoothScroll>
         )}

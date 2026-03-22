@@ -6,6 +6,10 @@ import Section from '@/components/ui/Section'
 export default function ToolsSection() {
   const { t } = useTranslation()
 
+  const handleClick = (tool: typeof tools[0]) => {
+    window.dispatchEvent(new CustomEvent('install-tool', { detail: tool }))
+  }
+
   return (
     <Section>
       <h2 className="mb-2 font-display text-3xl font-bold md:text-4xl">
@@ -15,8 +19,9 @@ export default function ToolsSection() {
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
         {tools.map((tool, i) => (
-          <motion.div
+          <motion.button
             key={tool.pkg}
+            onClick={() => handleClick(tool)}
             className="group flex flex-col items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 transition-all duration-300 hover:border-zinc-600 hover:bg-zinc-800/60"
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +32,7 @@ export default function ToolsSection() {
             <img src={tool.icon} alt={tool.name} className="h-10 w-10" loading="lazy" />
             <span className="text-sm font-medium text-zinc-300 group-hover:text-white">{tool.name}</span>
             <span className="font-mono text-[10px] text-zinc-600">{tool.pkg}</span>
-          </motion.div>
+          </motion.button>
         ))}
       </div>
     </Section>
