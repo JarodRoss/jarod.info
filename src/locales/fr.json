@@ -192,6 +192,10 @@
       "other": "Autre"
     }
   },
+  "tools": {
+    "title": "Mes Tools",
+    "subtitle": "Mes outils favoris au quotidien."
+  },
   "footer": {
     "developed_by": "Portfolio développé par Jarod avec Vite.js, React, TypeScript & Tailwind CSS",
     "rights": "Tous droits réservés.",

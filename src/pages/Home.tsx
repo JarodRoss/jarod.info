@@ -5,6 +5,7 @@ import CurrentlyDoing from '@/components/home/CurrentlyDoing'
 import AboutPreview from '@/components/home/AboutPreview'
 import FeaturedProjects from '@/components/home/FeaturedProjects'
 import ContactCTA from '@/components/home/ContactCTA'
+import ToolsSection from '@/components/home/ToolsSection'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AboutPreview />
       <FeaturedProjects />
       <ContactCTA />
+      <ToolsSection />
     </PageTransition>
   )
 }
